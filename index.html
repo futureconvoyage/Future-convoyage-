@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Future Convoyage : convoyage et acheminement de véhicules depuis la France vers les points d’exportation à destination de l’Algérie. Demandez votre devis.">
+  <meta name="theme-color" content="#0b0b0c">
+  <title>Future Convoyage | France → Algérie</title>
+  <style>
+    :root{--bg:#0b0b0c;--panel:#141416;--gold:#c9a45c;--gold2:#e6cb91;--text:#f5f2eb;--muted:#b8b3a8;--line:rgba(201,164,92,.24)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(11,11,12,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:800;letter-spacing:.12em;font-size:15px}.brand span{color:var(--gold)}
+    nav{display:flex;gap:26px;color:var(--muted);font-size:13px}nav a:hover{color:var(--gold2)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border:1px solid var(--gold);background:var(--gold);color:#111;font-weight:700;font-size:13px;letter-spacing:.04em;border-radius:2px;transition:.2s}
+    .btn:hover{background:var(--gold2);transform:translateY(-1px)}.btn.outline{background:transparent;color:var(--gold2)}
+    .hero{min-height:650px;display:flex;align-items:center;position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(7,7,8,.96) 0%,rgba(7,7,8,.82) 48%,rgba(7,7,8,.30) 100%),url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2000&q=85') center/cover}
+    .hero:after{content:"";position:absolute;inset:auto 0 0;height:150px;background:linear-gradient(transparent,var(--bg))}
+    .hero-content{position:relative;z-index:1;max-width:680px;padding:90px 0}.eyebrow{color:var(--gold2);font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase}
+    h1{font-size:clamp(42px,7vw,76px);line-height:1.03;letter-spacing:-.045em;margin:22px 0}.gold{color:var(--gold2)}
+    .lead{font-size:18px;color:#d1cdc4;max-width:570px;margin:0 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+    .route{display:flex;align-items:center;gap:16px;margin-top:48px;color:var(--muted);font-size:12px;letter-spacing:.13em;text-transform:uppercase}.route i{display:block;width:75px;height:1px;background:var(--gold)}
+    section{padding:88px 0}.section-head{max-width:650px;margin-bottom:42px}.section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.12;margin:12px 0}.section-head p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);padding:28px;min-height:220px}.num{color:var(--gold);font-size:12px;letter-spacing:.15em}.card h3{font-size:19px;margin:22px 0 10px}.card p{color:var(--muted);font-size:14px;margin:0}
+    .band{background:#111113;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.cities{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.city{border:1px solid var(--line);padding:10px 16px;color:var(--gold2);font-size:13px}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.visual{min-height:390px;background:linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.2)),url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=85') center/cover;border:1px solid var(--line)}
+    .ticks{list-style:none;padding:0;margin:25px 0}.ticks li{padding:11px 0;border-bottom:1px solid var(--line);color:#d7d2c8}.ticks li:before{content:"✦";color:var(--gold);margin-right:12px}
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px}.contact-box{background:var(--panel);border:1px solid var(--line);padding:30px}.contact-box h3{margin-top:0}
+    label{display:block;font-size:12px;color:var(--muted);margin:15px 0 6px}input,select,textarea{width:100%;padding:13px;background:#0c0c0e;border:1px solid #39332a;color:var(--text);border-radius:2px;font:inherit}textarea{min-height:105px;resize:vertical}input:focus,select:focus,textarea:focus{outline:1px solid var(--gold)}
+    form .btn{width:100%;margin-top:20px;cursor:pointer}.phone{display:block;color:var(--gold2);font-size:17px;margin:14px 0}.small{font-size:12px;color:var(--muted)}
+    footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:760px){nav{display:none}.hero{min-height:590px;background-position:60% center}.hero-content{padding:70px 0}.services,.two,.contact-grid{grid-template-columns:1fr}.two{gap:25px}.visual{min-height:260px}section{padding:65px 0}.contact-box{padding:22px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#accueil">FUTURE <span>CONVOYAGE</span></a>
+  <nav><a href="#services">Services</a><a href="#zones">Zones</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></nav>
+  <a class="btn outline" href="#contact">Demander un devis</a>
+</div></header>
+<main>
+  <section class="hero" id="accueil"><div class="wrap"><div class="hero-content">
+    <div class="eyebrow">Convoyage automobile · France → Algérie</div>
+    <h1>Votre véhicule.<br><span class="gold">Notre engagement.</span></h1>
+    <p class="lead">Une solution de convoyage pour acheminer votre véhicule depuis la France jusqu’à votre point d’exportation vers l’Algérie.</p>
+    <div class="actions"><a class="btn" href="#contact">Obtenir un devis</a><a class="btn outline" href="https://wa.me/33743057009" target="_blank" rel="noopener">Nous contacter sur WhatsApp</a></div>
+    <div class="route"><span>France</span><i></i><span>Algérie</span></div>
+  </div></div></section>
+
+  <section id="services"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">Nos prestations</div><h2>Un service pensé pour <span class="gold">vos véhicules.</span></h2><p>Future Convoyage accompagne particuliers et professionnels dans l’organisation du déplacement de véhicules destinés à l’exportation vers l’Algérie.</p></div>
+    <div class="services">
+      <article class="card"><div class="num">01 / CONVOYAGE</div><h3>Acheminement de véhicules</h3><p>Prise en charge et convoyage de véhicules depuis différentes villes françaises, selon les modalités convenues.</p></article>
+      <article class="card"><div class="num">02 / EXPORT</div><h3>Direction point d’export</h3><p>Transport du véhicule jusqu’au point d’exportation prévu en France, en coordination avec le client.</p></article>
+      <article class="card"><div class="num">03 / PROFESSIONNELS</div><h3>Partenariats automobiles</h3><p>Échanges avec garages, concessionnaires et acteurs de l’import-export à la recherche d’un partenaire de convoyage.</p></article>
+    </div>
+  </div></section>
+
+  <section class="band" id="zones"><div class="wrap"><div class="section-head"><div class="eyebrow">Notre couverture</div><h2>Au départ de plusieurs villes <span class="gold">en France.</span></h2><p>Vous êtes situé ailleurs ? Contactez-nous pour étudier votre demande.</p>
+    <div class="cities"><span class="city">Paris</span><span class="city">Lyon</span><span class="city">Lille</span><span class="city">Bordeaux</span><span class="city">Marseille</span><span class="city">Montpellier</span></div>
+  </div></div></section>
+
+  <section id="apropos"><div class="wrap two">
+    <div class="visual" role="img" aria-label="Voiture haut de gamme"></div>
+    <div><div class="eyebrow">Future Convoyage</div><h2>La route vers l’export, <span class="gold">en toute clarté.</span></h2>
+      <p style="color:var(--muted)">Nous mettons l’accent sur une communication simple, une demande bien définie et un suivi clair à chaque étape convenue avec le client.</p>
+      <ul class="ticks"><li>Échanges directs et personnalisés</li><li>Demandes étudiées selon le trajet et le véhicule</li><li>Solutions pour particuliers et professionnels</li><li>Devis communiqué avant confirmation</li></ul>
+      <a class="btn outline" href="#contact">Parler de votre projet</a>
+    </div>
+  </div></section>
+
+  <section class="band" id="contact"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">Parlons de votre trajet</div><h2>Demandez votre <span class="gold">devis.</span></h2><p>Indiquez les informations principales de votre véhicule et de votre trajet. Votre demande sera préparée dans WhatsApp.</p></div>
+    <div class="contact-grid">
+      <div class="contact-box"><h3>Contact direct</h3><p class="small">Choisissez le numéro qui vous convient.</p>
+        <a class="phone" href="https://wa.me/33743057009" target="_blank" rel="noopener">WhatsApp France · +33 7 43 05 70 09</a>
+        <a class="phone" href="https://wa.me/213791542596" target="_blank" rel="noopener">WhatsApp Algérie · +213 791 54 25 96</a>
+        <p class="small">France → Algérie · Convoyage de véhicules destinés à l’exportation</p>
+      </div>
+      <div class="contact-box"><form id="quoteForm">
+        <label for="name">Votre nom</label><input id="name" name="name" placeholder="Nom et prénom" required>
+        <label for="phone">Votre téléphone</label><input id="phone" name="phone" placeholder="+33 / +213..." required>
+        <label for="car">Véhicule</label><input id="car" name="car" placeholder="Marque, modèle, année">
+        <label for="from">Ville de prise en charge</label><input id="from" name="from" placeholder="Ex. Paris" required>
+        <label for="to">Destination / point d’export</label><input id="to" name="to" placeholder="Ex. Port de Marseille" required>
+        <label for="details">Informations complémentaires</label><textarea id="details" name="details" placeholder="Date souhaitée, particularités du véhicule..."></textarea>
+        <button class="btn" type="submit">Envoyer la demande sur WhatsApp</button>
+        <p class="small">En cliquant, WhatsApp s’ouvrira avec votre message prérempli. Vous pourrez le vérifier avant de l’envoyer.</p>
+      </form></div>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Future Convoyage. Tous droits réservés.</span><span>France → Algérie · Convoyage automobile</span></div></footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('quoteForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const f = new FormData(this);
+    const msg = `Bonjour Future Convoyage, je souhaite un devis.%0A%0ANom : ${encodeURIComponent(f.get('name'))}%0ATéléphone : ${encodeURIComponent(f.get('phone'))}%0AVéhicule : ${encodeURIComponent(f.get('car') || 'Non précisé')}%0ADépart : ${encodeURIComponent(f.get('from'))}%0ADestination : ${encodeURIComponent(f.get('to'))}%0ADétails : ${encodeURIComponent(f.get('details') || 'Aucun')}`;
+    window.open('https://wa.me/33743057009?text=' + msg, '_blank', 'noopener');
+  });
+</script>
+</body>
+</html>
